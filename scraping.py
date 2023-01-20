@@ -12,7 +12,7 @@ browser = webdriver.Chrome()
 
 browser.get("https://sia.estacio.br/sianet/logon/")
 
-chave_captcha = 
+chave_captcha = ''
 
 solver = recaptchav2proxyless()
 solver.set_verbose(1)
